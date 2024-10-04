@@ -41,36 +41,36 @@
     --blue: hsl(228, 45%, 44%);
   }
 
-/* figtree-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/figtree-v5-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* figtree-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/figtree-v5-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* figtree-800 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Figtree';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/figtree-v5-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 300 to 900
+  
+  .figtree-regular {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .figtree-medium {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: normal;
+  }
+  .figtree-exb {
+font-family: "Figtree", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-size: normal;
+  }
 
   .attribution {
     font-size: 0.688em;
     text-align: center;
+    font-family: 'figtree-regular', Figtree, sans-serif;
   }
 
   .attribution a{
     color: var(--blue);
+    text-decoration: double;
   }
+
