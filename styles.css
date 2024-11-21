@@ -88,18 +88,21 @@ a:hover {
 }
 
 .body {
-display: grid;
+display: flex;
+flex-direction: column;
 place-items: center;
 min-height: 100vh;
 background-color: var(--yellow);
+justify-content: center;
+align-items: center;
 }
 
 .card {
-  min-height: 100vh;
-  max-width: 22.5rem;
+max-width: 22.5rem;
 border-radius: 1.25rem;
 box-shadow: 0em 0.313em 0em 0.313em outset;
 background-color: var(--white);
+padding: 1.5rem;
 }
 
 .illustrastion {
