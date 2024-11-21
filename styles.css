@@ -94,20 +94,28 @@ place-items: center;
 min-height: 100vh;
 background-color: var(--yellow);
 justify-content: center;
-align-items: center;
 }
 
 .card {
 max-width: 22.5rem;
 border-radius: 1.25rem;
-box-shadow: 0em 0.313em 0em 0.313em outset;
+box-shadow: 0em 0.313em 0em 0.313em outset var(--grey-950);
 background-color: var(--white);
 padding: 1.5rem;
 }
 
-.illustrastion {
-  min-width: 100%;
-  min-height: 25%;
+.card .illustrastion img{
+  max-width: 100%;
+  min-height: 30%;
   border-radius: 1.25rem;
+  object-fit: cover;
+  justify-content: center;
+}
 
+.card .learn {
+
+}
+
+.card .avatar img {
+  float: left;
 }
