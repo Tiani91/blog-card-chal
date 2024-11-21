@@ -33,12 +33,19 @@
     isolation: isolate;
   }
 
-  #root {
+
+
+  :root {
     --yellow: hsl(47, 88%, 63%);
     --white: hsl(0, 0%, 100%);
     --grey-500: hsl(0, 0%, 42%);
     --grey-950: hsl(0, 0%, 7%);
     --blue: hsl(228, 45%, 44%);
+  }
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
   }
 
 
@@ -69,6 +76,35 @@ font-size: normal;
 
   .attribution a{
     color: var(--blue);
-    text-decoration: double;
+    text-decoration: none;
   }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: double;
+}
+
+.body {
+display: grid;
+place-items: center;
+min-height: 100vh;
+background-color: var(--yellow);
+}
+
+.card {
+  min-height: 100vh;
+  max-width: 22.5rem;
+border-radius: 1.25rem;
+box-shadow: 0em 0.313em 0em 0.313em outset;
+background-color: var(--white);
+}
+
+.illustrastion {
+  min-width: 100%;
+  min-height: 25%;
+  border-radius: 1.25rem;
+
+}
