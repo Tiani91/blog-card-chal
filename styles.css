@@ -41,6 +41,7 @@
     --grey-500: hsl(0, 0%, 42%);
     --grey-950: hsl(0, 0%, 7%);
     --blue: hsl(228, 45%, 44%);
+    --black: hsl(0, 0%, 0%);
   }
 
   * {
@@ -72,10 +73,11 @@ font-size: normal;
     font-size: 0.688em;
     text-align: center;
     font-family: 'figtree-regular', Figtree, sans-serif;
+    color: var(--grey-500);
   }
 
   .attribution a{
-    color: var(--blue);
+    color: var(--grey-500);
     text-decoration: none;
   }
 
@@ -90,7 +92,7 @@ a:hover {
 .body {
 display: flex;
 flex-direction: column;
-place-items: center;
+align-items: center;
 min-height: 100vh;
 background-color: var(--yellow);
 justify-content: center;
@@ -99,7 +101,7 @@ justify-content: center;
 .card {
 max-width: 22.5rem;
 border-radius: 1.25rem;
-box-shadow: 0em 0.313em 0em 0.313em outset var(--grey-950);
+box-shadow: 0em 0.313em 0em 0.313em outset var(--black);
 background-color: var(--white);
 padding: 1.5rem;
 }
@@ -113,7 +115,8 @@ padding: 1.5rem;
 }
 
 .card .learn {
-
+color: var(--grey-500);
+background-color: var(--yellow);
 }
 
 .card .avatar img {
