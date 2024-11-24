@@ -102,7 +102,7 @@ justify-content: center;
 .card {
 max-width: 22.5rem;
 border-radius: 0.938rem;
-box-shadow: 0rem 0.313rem 0rem 0.313rem outset var(--black);
+box-shadow: 0rem 0.625rem 0rem 0.625rem outset var(--black);
 background-color: var(--white);
 padding: 1.5rem;
 justify-content: center;
@@ -116,12 +116,12 @@ justify-content: center;
   justify-content: center;
 }
 
-.card .learn {
-border-radius: 0.938rem;
+.learn {
+border-radius: 0.313rem;
 color: var(--grey-500);
 background-color: var(--yellow);
 }
 
-.card .avatar img {
+.avatar img {
   float: left;
 }
