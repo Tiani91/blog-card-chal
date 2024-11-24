@@ -102,13 +102,14 @@ justify-content: center;
 .card {
 max-width: 22.5rem;
 border-radius: 0.938rem;
+border-color: var(--grey-950);
 box-shadow: 0rem 0.625rem 0rem 0.625rem outset var(--black);
 background-color: var(--white);
 padding: 1.5rem;
 justify-content: center;
 }
 
-.illustrastion{
+.illustration {
   max-width: 100%;
   min-height: 30%;
   border-radius: 0.938rem;
@@ -124,4 +125,6 @@ background-color: var(--yellow);
 
 .avatar img {
   float: left;
+  width: 1.875rem;
+  height: 1.875rem;
 }
