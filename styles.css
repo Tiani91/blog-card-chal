@@ -45,8 +45,8 @@
   }
 
   * {
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
   }
 
 
@@ -70,10 +70,11 @@ font-size: normal;
   }
 
   .attribution {
-    font-size: 0.688em;
+    font-size: 0.688rem;
     text-align: center;
     font-family: 'figtree-regular', Figtree, sans-serif;
     color: var(--grey-500);
+    padding: 0.966rem;
   }
 
   .attribution a{
@@ -90,19 +91,19 @@ a:hover {
   text-decoration: double;
 }
 
-.body {
+body {
+min-height: 100vh;
+background-color: var(--yellow);
 display: flex;
 flex-direction: column;
 align-items: center;
-min-height: 100vh;
-background-color: var(--yellow);
 justify-content: center;
 }
 
 .card {
 max-width: 22.5rem;
 border-radius: 1.25rem;
-box-shadow: 0em 0.313em 0em 0.313em outset var(--black);
+box-shadow: 0em 0.313rem 0em 0.313rem outset var(--black);
 background-color: var(--white);
 padding: 1.5rem;
 justify-content: center;
