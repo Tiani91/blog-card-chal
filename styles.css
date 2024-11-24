@@ -84,14 +84,13 @@ font-size: normal;
 
 a {
   text-decoration: none;
-  color: var(--grey-500);
 }
 
 a:hover {
   text-decoration: double;
 }
 
-body {
+body main {
 min-height: 100vh;
 background-color: var(--yellow);
 display: flex;
@@ -102,8 +101,8 @@ justify-content: center;
 
 .card {
 max-width: 22.5rem;
-border-radius: 1.25rem;
-box-shadow: 0em 0.313rem 0em 0.313rem outset var(--black);
+border-radius: 0.938rem;
+box-shadow: 0rem 0.313rem 0rem 0.313rem outset var(--black);
 background-color: var(--white);
 padding: 1.5rem;
 justify-content: center;
@@ -112,12 +111,13 @@ justify-content: center;
 .card .illustrastion img{
   max-width: 100%;
   min-height: 30%;
-  border-radius: 1.25rem;
+  border-radius: 0.938rem;
   object-fit: cover;
   justify-content: center;
 }
 
 .card .learn {
+border-radius: 0.938rem;
 color: var(--grey-500);
 background-color: var(--yellow);
 }
