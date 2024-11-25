@@ -101,9 +101,10 @@ justify-content: center;
 
 .card {
 max-width: 22.5rem;
+border: var(--black);
 border-radius: 0.938rem;
-border-width: 0.313rem solid var(--grey-950);
-box-shadow: 0rem 0.625rem 0rem 0.625rem outset var(--black);
+border-width: 0.313rem solid;
+box-shadow: 0rem 0.625rem 0rem 0.625rem solid var(--black);
 background-color: var(--white);
 padding: 1.5rem;
 justify-content: center;
