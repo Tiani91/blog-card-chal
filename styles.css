@@ -50,19 +50,19 @@
   }
 
 
-  .figtree-regular {
+ p .figtree-regular {
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
-  .figtree-medium {
+ h6 .figtree-medium {
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: normal;
   }
-  .figtree-exb {
+h1  .figtree-exb {
 font-family: "Figtree", sans-serif;
 font-optical-sizing: auto;
 font-weight: 800;
@@ -120,17 +120,6 @@ justify-content: center;
 
 article .text {
   padding: 0.313rem;
-}
-p {
-  font-family: "figtree-regular", sans-serif;
-}
-
-h1 {
-  font-family: "figtree-exb", sans-serif;
-}
-
-h6 {
-  font-family: "figtree-medium", sans-serif;
 }
 
 .learn {
