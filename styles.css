@@ -50,23 +50,23 @@
   }
 
 
- p .figtree-regular {
+  .figtree-regular {
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
- h6 .figtree-medium {
+  .figtree-medium {
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-size: normal;
   }
-h1  .figtree-exb {
-font-family: "Figtree", sans-serif;
-font-optical-sizing: auto;
-font-weight: 800;
-font-size: normal;
+  .figtree-exb {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: normal;
   }
 
   .attribution {
@@ -104,7 +104,7 @@ max-width: 22.5rem;
 max-height: 100%;
 border: 0.063rem solid var(--grey-950);
 border-radius: 0.781rem;
-outline: 0rem 0.625rem 0rem 0.625rem solid var(--grey-950);
+outline: 0.126rem solid var(--grey-950);
 background-color: var(--white);
 padding: 1.5rem;
 justify-content: center;
@@ -118,19 +118,24 @@ justify-content: center;
   justify-content: center;
 }
 
+.learn {
+border-radius: 0.313rem;
+color: var(--grey-900);
+background-color: var(--yellow);
+padding: 0.313rem;
+font-weight: 800;
+}
+
 article .text {
   padding: 0.313rem;
 }
 
-.learn {
-border-radius: 0.313rem;
-color: var(--grey-500);
-background-color: var(--yellow);
-padding: 0.313rem;
-}
+p {}
 
 section {
   padding: 0.313rem;
+  color: var(--grey-950);
+  font-weight: 800;
 }
 
 .avatar img {
