@@ -118,10 +118,19 @@ justify-content: center;
   justify-content: center;
 }
 
+article .text {
+  padding: 0.313rem;
+}
+
 .learn {
 border-radius: 0.313rem;
 color: var(--grey-500);
 background-color: var(--yellow);
+padding: 0.313rem;
+}
+
+section {
+  padding: 0.313rem;
 }
 
 .avatar img {
