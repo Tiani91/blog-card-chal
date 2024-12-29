@@ -42,31 +42,32 @@
     --grey-950: hsl(0, 0%, 7%);
     --blue: hsl(228, 45%, 44%);
     --black: hsl(0, 0%, 0%);
+
+    @font-face {
+      font-family: 'figtree-reg';
+      src: url('fonts/figtree-v5-latin-regular.woff2') format('truetype');
+      font-weight:normal;
+      font-size: normal;
+    }
+
+    @font-face {
+      font-family: 'figtree-med';
+      src: url('fonts/figtree-v5-latin-500.woff2') format('truetype');
+      font-weight: normal;
+      font-size: normal;
+    }
+
+    @font-face {
+      font-family: 'figtree-exb';
+      src: url('fonts/figtree-v5-latin-800.woff2') format('truetype');
+      font-weight: normal;
+      font-size: normal;
+    }
   }
 
   * {
     box-sizing: border-box;
     margin: 0;
-  }
-
-
-  .figtree-regular {
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .figtree-medium {
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: normal;
-  }
-  .figtree-exb {
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-size: normal;
   }
 
   .attribution {
