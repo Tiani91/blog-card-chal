@@ -53,14 +53,14 @@
     @font-face {
       font-family: 'figtree-med';
       src: url('fonts/figtree-v5-latin-500.woff2') format('woff2');
-      font-weight: normal;
+      font-weight: 500;
       font-size: normal;
     }
 
     @font-face {
       font-family: 'figtree-exb';
       src: url('fonts/figtree-v5-latin-800.woff2') format('woff2');
-      font-weight: normal;
+      font-weight: 800;
       font-size: normal;
     }
   }
@@ -78,13 +78,14 @@
     padding: 0.966rem;
   }
 
-  .attribution a{
+  .attribution a:link{
     color: var(--grey-500);
     text-decoration: none;
   }
 
 a:link, a:visited {
   text-decoration: none;
+  color: var(--grey-900);
 }
 
 a:hover, a:active {
@@ -147,4 +148,5 @@ section {
 
 footer {
   background-color: var(--yellow);
+  color: var(--grey-500);
 }
