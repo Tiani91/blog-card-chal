@@ -85,7 +85,6 @@
 
 a:link, a:visited {
   text-decoration: none;
-  color: var(--grey-950)
 }
 
 a:hover, a:active {
