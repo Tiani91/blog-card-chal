@@ -100,13 +100,15 @@ justify-content: center;
 }
 
 .card {
-max-width: 22.5rem;
+max-width: 24rem;
 max-height: 100%;
 border: 0.063rem solid outset var(--black);
 border-radius: 0.781rem;
+box-shadow: 0.5rem 0.5rem 0 0;
 background-color: var(--white);
-padding: 1.5rem;
 justify-content: center;
+display: flex;
+margin: 0.625rem 1.5rem;
 }
 
 .illustration img {
