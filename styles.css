@@ -82,13 +82,16 @@
     text-decoration: none;
   }
 
-a {
+a:link, a:visited {
   text-decoration: none;
+  color: var(--grey-950)
 }
 
-a:hover {
+a:hover, a:active {
   text-decoration: double;
+  color: var(--grey-500);
 }
+
 
 body main {
 min-height: 100vh;
@@ -123,14 +126,12 @@ border-radius: 0.313rem;
 color: var(--grey-900);
 background-color: var(--yellow);
 padding: 0.313rem;
-font-weight: 800;
+font-family: "figtree-exb", Figtree, sans-serif;
 }
 
 article .text {
   padding: 0.313rem;
 }
-
-
 
 section {
   padding: 0.313rem;
@@ -142,4 +143,8 @@ section {
   float: left;
   width: 1.875rem;
   height: 1.875rem;
+}
+
+footer {
+  background-color: var(--yellow);
 }
