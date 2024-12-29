@@ -45,21 +45,21 @@
 
     @font-face {
       font-family: 'figtree-reg';
-      src: url('fonts/figtree-v5-latin-regular.woff2') format('truetype');
+      src: url('fonts/figtree-v5-latin-regular.woff2') format('woff2');
       font-weight:normal;
       font-size: normal;
     }
 
     @font-face {
       font-family: 'figtree-med';
-      src: url('fonts/figtree-v5-latin-500.woff2') format('truetype');
+      src: url('fonts/figtree-v5-latin-500.woff2') format('woff2');
       font-weight: normal;
       font-size: normal;
     }
 
     @font-face {
       font-family: 'figtree-exb';
-      src: url('fonts/figtree-v5-latin-800.woff2') format('truetype');
+      src: url('fonts/figtree-v5-latin-800.woff2') format('woff2');
       font-weight: normal;
       font-size: normal;
     }
@@ -73,7 +73,7 @@
   .attribution {
     font-size: 0.688rem;
     text-align: center;
-    font-family: 'figtree-regular', Figtree, sans-serif;
+    font-family: 'figtree-reg', Figtree, sans-serif;
     color: var(--grey-500);
     padding: 0.966rem;
   }
