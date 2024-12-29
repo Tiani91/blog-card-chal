@@ -107,6 +107,7 @@ border-radius: 0.781rem;
 box-shadow: 0.5rem 0.5rem 0 0;
 background-color: var(--white);
 justify-content: center;
+padding: 1.5rem;
 }
 
 .illustration img {
