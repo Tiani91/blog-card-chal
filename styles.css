@@ -129,6 +129,7 @@ background-color: var(--yellow);
 padding: 0.5rem;
 font-family: "figtree-exb", Figtree, sans-serif;
 border: none;
+font-size: 0.625rem;
 }
 
 article .text {
