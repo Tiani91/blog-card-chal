@@ -163,6 +163,9 @@ section {
   color: var(--grey-950);
   font-weight: 800;
 }
+avater {
+  word-spacing: 0.313rem;
+}
 
 .avatar img {
   float: left;
@@ -171,7 +174,6 @@ section {
 }
 
 .avatar p {
-  float: right;
   font-family: "figtree-exb", Figtree, sans-serif;
 }
 
