@@ -128,7 +128,7 @@ color: var(--grey-900);
 background-color: var(--yellow);
 padding: 0.313rem;
 font-family: "figtree-med", Figtree, sans-serif;
-margin-bottom: 0.313rem;
+padding-bottom: 0.313rem;
 }
 
 article .text {
