@@ -127,12 +127,35 @@ border-radius: 0.313rem;
 color: var(--grey-900);
 background-color: var(--yellow);
 padding: 0.313rem;
-font-family: "figtree-med", Figtree, sans-serif;
+font-family: "figtree-exb", Figtree, sans-serif;
 border: none;
 }
 
 article .text {
   padding: 0.313rem;
+}
+
+article .date {
+  font-family: "figtree-reg", Figtree, sans-serif;
+}
+
+h2 {
+  font-family: "figtree-exb", Figtree, sans-serif;
+}
+
+h2 a:link {
+  color: var(--grey-900);
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+article .info {
+color: var(--grey-500);
+font-family: "figtree-reg", Figtree, sans-serif;
 }
 
 section {
@@ -145,6 +168,11 @@ section {
   float: left;
   width: 1.875rem;
   height: 1.875rem;
+}
+
+.avatar p {
+  float: right;
+  font-family: "figtree-exb", Figtree, sans-serif;
 }
 
 footer {
