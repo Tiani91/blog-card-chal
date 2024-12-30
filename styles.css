@@ -165,6 +165,7 @@ section {
 }
 avater {
   word-spacing: 0.313rem;
+  font-family: "figtree-exb", Figtree, sans-serif;
 }
 
 .avatar img {
@@ -173,9 +174,6 @@ avater {
   height: 1.875rem;
 }
 
-.avatar p {
-  font-family: "figtree-exb", Figtree, sans-serif;
-}
 
 footer {
   background-color: var(--yellow);
