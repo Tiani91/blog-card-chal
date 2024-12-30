@@ -42,7 +42,8 @@
     --grey-950: hsl(0, 0%, 7%);
     --blue: hsl(228, 45%, 44%);
     --black: hsl(0, 0%, 0%);
-
+  }
+  
     @font-face {
       font-family: 'figtree-reg';
       src: url('fonts/figtree-v5-latin-regular.woff2') format('woff2');
@@ -63,7 +64,6 @@
       font-weight: 800;
       font-size: normal;
     }
-  }
 
   * {
     box-sizing: border-box;
