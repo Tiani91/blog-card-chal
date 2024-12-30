@@ -163,7 +163,7 @@ section {
   color: var(--grey-950);
   font-weight: 800;
 }
-avater {
+.avatar {
   word-spacing: 0.313rem;
   font-family: "figtree-exb", Figtree, sans-serif;
 }
