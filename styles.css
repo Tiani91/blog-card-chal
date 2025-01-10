@@ -129,12 +129,11 @@ color: var(--grey-900);
 background-color: var(--yellow);
 font-family: "figtree-exb", Figtree, sans-serif;
 border: none;
-margin-bottom: 1.5rem;
-padding: 0.75 rem 0.875rem 0.75rem 0.875rem;
 }
 
 article .text {
-  padding: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75 rem 0.875rem 0.75rem 0.875rem;
 }
 
 article .date {
