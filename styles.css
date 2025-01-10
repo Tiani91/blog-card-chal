@@ -120,6 +120,7 @@ padding: 1.5rem;
   border-radius: 0.875rem;
   object-fit: cover;
   justify-content: center;
+  margin-bottom: 0.875rem;
 }
 
 span {
@@ -128,7 +129,7 @@ color: var(--grey-900);
 background-color: var(--yellow);
 font-family: "figtree-exb", Figtree, sans-serif;
 border: none;
-margin-bottom: 0.5rem;
+margin-bottom: 0.875rem;
 }
 
 article .text {
